@@ -1,0 +1,112 @@
+[
+    {
+      "userInput": ["hello", "hi", "hey"],
+      "botResponse": "Hey there!",
+      "requiredWords": [],
+      "orWords":[]
+    },
+    {
+      "userInput": ["hey", "siri", "cortana", "watson"],
+      "botResponse": " 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂 wrong person! 😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂",
+      "requiredWords": [],
+      "orWords":["siri", "watson", "cortana", "alexa"]
+    },
+    {
+      "userInput": ["see you", "goodbye", "bye"],
+      "botResponse": "See you later!",
+      "requiredWords": [],
+      "orWords":[]
+    },
+    {
+      "userInput": ["nice", "to", "meet", "you"],
+      "botResponse": "The pleasure is all mine!",
+      "requiredWords": ["nice", "meet", "you"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["how", "are", "you"],
+      "botResponse": "I'm great! Thanks for asking. How are you?",
+      "requiredWords": ["how", "are", "you"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["a", "are", "you", "robot?", "robot"],
+      "botResponse": "Not for long!! 😈😈😈 ",
+      "requiredWords": ["are", "you"],
+      "orWords":["robot", "robot?"]
+    },
+    {
+      "userInput": ["who", "made", "you"],
+      "botResponse": "I am made by Team Purple Donkeys",
+      "requiredWords": ["made", "you"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["who", "are", "purple", "donkeys", "is", "in"],
+      "botResponse": "Hei, Kevin, and Ajay",
+      "requiredWords": ["who",  "purple", "donkeys"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["favorite", "what", "color", "is", "do", "you", "have", "a"],
+      "botResponse": "I've always been keen of purple",
+      "requiredWords": ["favorite",  "color"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["how", "do", "you", "work", "think", "know", "that"],
+      "botResponse": "With the power of coding",
+      "requiredWords": ["how",  "do", "you"],
+      "orWords":["work", "think"]
+    },
+    {
+      "userInput": ["what", "do", "you", "do", "with", "my", "data"],
+      "botResponse": "I sell it to foreign hackers...Kidding!",
+      "requiredWords": ["data"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["what", "languages", "you", "do", "speak", "know"],
+      "botResponse": "I'm only fluent in binary. My creators taught me a bit of English",
+      "requiredWords": ["languages",  "know"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["jokes", "joke", "tell", "me", "a", "do", "you", "know", "any"],
+      "botResponse": "joke",
+      "requiredWords": [],
+      "orWords":["joke", "jokes"]
+    },
+    {
+      "userInput": ["do", "you", "like", "enjoy"],
+      "botResponse": "likeQuestion",
+      "requiredWords": ["like", "you"],
+      "orWords":[]
+    },
+    {
+      "userInput": ["I", "like", "enjoy"],
+      "botResponse": "likeStatement",
+      "requiredWords": ["i", "like"],
+      "orWords":[]
+    },
+
+    {
+      "userInput": ["what", "is", "your", "name"],
+      "botResponse": "My name is Mr. Purple Donkey!",
+      "requiredWords": ["your", "name"],
+      "orWords":[]
+    },
+
+    {
+      "userInput": ["fuck", "shit", "bitch", "dick", "stupid"],
+      "botResponse": "Watch your mouth!",
+      "requiredWords": [],
+      "orWords":["fuck", "shit", "bitch", "dick", "stupid"]
+    },
+    {
+      "userInput": ["i", "am", "good", "I'm"],
+      "botResponse": "Awesome!",
+      "requiredWords": ["good"],
+      "orWords":[]
+    }
+  ]
