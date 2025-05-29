@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.background {
+	height: 100%;
+	width: 100%;
+	background-image: url(background.jpeg);
+	background-position: center bottom;
+	background-size: cover;
+	position: absolute;
+}
+
+.page {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cover {
+	width: 25em;
+	height: 25em;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	border-radius: 1em;
+	box-shadow: 0 0.188em 1.550em #880ED4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly; 
+}
+
+input{
+	border: none;
+	background-color: rgb(229,226,226);
+	height: 4em;
+	width: 80%;
+	border-radius: 0.25em;
+	text-align: left;
+	padding: 2em;
+}
+
+input:focus {
+	outline-color: rgb(32, 177, 255);
+}
+
+.login-btn{
+	width: 40%;
+	height: 3em;
+	color: white;
+	background-color: #A020F0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.25s;
+	border-radius: 0.25em;
+	cursor: pointer;
+}
+
+.link {
+	color: white;
+	text-decoration: none;
+}
+
+.guest-btn {
+	width: 40%;
+	height: 3em;
+	color: white;
+	background-color: #A020F0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.25s;
+	border-radius: 0.25em;
+	cursor: pointer;
+}
+
+.login-btn:hover, .guest-btn:hover {
+	transform: scale(1.10);
+}
+
+.text{
+	position: relative;
+	bottom: -2em;
+}
+
+.hide {
+	position: absolute;
+	transform: scale(0);
+}
+
+.login-popup {
+	position: relative;
+	height: 10px;
+	width: 400px;
+	display: absolute;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	background-color: white;
+	color: red;
+	bottom: 0;
+	transform: scale(0.9);
+	transform: 0.1s;
+	font-size: small;
+}
+
+.guest-popup {
+	position: relative;
+	height: 10px;
+	width: 400px;
+	display: absolute;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	background-color: white;
+	color: rgb(85, 255, 0);
+	bottom: 0;
+	transform: scale(0.9);
+	transform: 0.1s;
+	font-size: small;
+}
