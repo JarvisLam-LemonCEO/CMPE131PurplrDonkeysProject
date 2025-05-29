@@ -1,4 +1,4 @@
-# CMPE-131-Purple-Donkeys
+# CMPE 131 Team Project - Purple Donkey (Chat Bot)
 ## Team Members
 1. Kevin Le
 2. Hei Lam
