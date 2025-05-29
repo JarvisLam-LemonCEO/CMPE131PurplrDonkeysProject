@@ -1,4 +1,4 @@
-# CMPE-131-Purple-Donkeys
+# CMPE 131 Team Project - Purple Donkey Chat Bot
 Group Project for CMPE 131
 Push test 
 
