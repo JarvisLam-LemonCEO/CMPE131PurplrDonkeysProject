@@ -1,5 +1,9 @@
 # CMPE-131-Purple-Donkeys
+## Team Members
+1. Kevin Le
+2. Hei Lam
+3. Ajay Paramasivan
+
 Group Project for CMPE 131
-Push test 
 
 Demo video for running it: https://www.youtube.com/watch?v=jqPJcvOb0Lg
